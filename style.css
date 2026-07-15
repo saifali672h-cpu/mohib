@@ -267,6 +267,9 @@ main {
         justify-content: center;
         align-items: center;
     }
+    .tag a {
+    text-decoration: none;
+}
 
     .content h1 {
         font-size: 2.3rem;
