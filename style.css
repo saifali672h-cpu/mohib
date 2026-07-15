@@ -147,6 +147,9 @@ main {
     transition: 0.5s ease;
     cursor: pointer;
 }
+.tag a {
+    text-decoration: none;
+}
 
 .tag-box .tag:hover {
     color: #5300a0;
@@ -296,7 +299,7 @@ main {
 
 }
 
-@media (min-width: 770px) and (max-width: 1300px) {
+@media (min-width: 769px) and (max-width: 1300px) {
 
     body {
         overflow: hidden;

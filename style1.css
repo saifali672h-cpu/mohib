@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfcfc;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:768px) {
+
+    .image-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.layer-blur {
+    height: 0;
+    width: 30rem;
+    position: absolute;
+    top: 19%;
+    right: 1%;
+    box-shadow: 0 0 700px 15px #fcfcfc;
+    transform: rotate(-20deg);
+    z-index: -1;
+}
+
+   .mobile-3d {
+        position: absolute;
+        top: 0%;
+        right: -9%;
+        margin-right: 14%;
+        width: 80%;
+        height: 300px;
+        z-index: -1;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 4.6%;
+        top: 35%;
+        text-align: center;
+    }
+
+    .heading h1 {
+        color: rgb(14, 92, 180);
+        letter-spacing: 1px;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .heading p {
+        font-size: 0.9rem;
+    }
+
+    .heading .p1 {
+        font-weight: 700;
+    }
+
+    .heading .p2 {
+        font-weight: 120;
+        letter-spacing: 0.2px;
+
+    }
+
+}
