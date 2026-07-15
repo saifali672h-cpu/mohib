@@ -237,6 +237,10 @@ main {
         margin: 0 20px;
     }
 
+    .btn-sign {
+        padding: 0.8rem 1.4rem;
+    }
+
     .logo {
         font-size: 1.9rem;
     }
