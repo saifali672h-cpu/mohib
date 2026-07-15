@@ -227,8 +227,9 @@ main {
 @media (max-width: 768px) {
 
     body {
-        overflow: hidden;
+        overflow:hidden
     }
+    
 
     nav {
         display: none;
@@ -305,7 +306,7 @@ main {
 @media (min-width: 769px) and (max-width: 1300px) {
 
     body {
-        overflow: hidden;
+        overflow:hidden
     }
 
     nav {
