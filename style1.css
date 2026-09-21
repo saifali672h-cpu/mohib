@@ -14,6 +14,8 @@ body {
 }
 
 
+
+
 @media (max-width:768px) {
 
     body {
@@ -71,7 +73,7 @@ body {
     }
 
     .heading h1 {
-        color: rgb(14, 92, 180);
+        color: rgb(14, 116, 233);
         letter-spacing: 1px;
         font-weight: 700;
         font-size: 1.8rem;
@@ -79,6 +81,7 @@ body {
 
     .heading h3 {
         margin-top: 3px;
+        color: #fcfcfcc2;
         font-weight: 700;
         font-size: 16px;
     }
@@ -88,6 +91,7 @@ body {
         font-weight: 120;
         letter-spacing: 2px;
         font-size: 0.6rem;
+        color: #fcfcfcc2;
     }
 
     .tech-line {
@@ -111,13 +115,14 @@ body {
         top: 46%;
         width: 90%;
         height: 26%;
-        border: 1px solid #0e5cb4;
+        border: 1px solid #0774f0;
         margin-left: 5%;
         border-radius: 10px;
+        color: #fcfcfcc2;
     }
 
     .features h1 {
-        color: #0e5cb4;
+        color: #0c6fe0;
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: 1px;
@@ -189,13 +194,14 @@ body {
         top: 73%;
         width: 90%;
         height: 26%;
-        border: 1px solid #0e5cb4;
+        border: 1px solid #0572ee;
         margin-left: 5%;
         border-radius: 10px;
+        color: #fcfcfcc2;
     }
 
     .Benefits h1 {
-        color: #0e5cb4;
+        color: #0470eb;
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: 1px;
